@@ -1,0 +1,288 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    
+}
+ #home{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    
+}
+ #overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(0, 128, 0, 0.372); */
+}
+#home  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#circle{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:60vw;
+    height: 60vw;
+     border-radius: 50%; 
+     z-index: 99;
+     background-color:white;
+    
+}
+
+#circle  img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    /* background-color: yellow; */
+ } 
+
+
+#circle #top img{
+   
+    transform: translate(-50%,-50%) rotate(-180deg);
+    /* background-color: blue; */
+}
+
+#circle #top img:nth-child(1){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(2);
+}
+
+#circle #top img:nth-child(2){
+    transform: translate(-50%,-50%) rotate(-180deg) scale(1.5);
+}
+
+#circle #btm img:nth-child(1){
+    transform: translate(-50%,-50%)  scale(2);
+}
+
+#circle #btm img:nth-child(2){
+    transform: translate(-50%,-50%)  scale(1.5);
+}
+
+#smcircle{
+    width: 38vw;
+    height: 38vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    background-color:white;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    padding: 32px 50px;
+    font-family: 'gilroy';
+}
+#nav h1{
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav img{
+    width: 100px;
+}
+
+#bnav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    z-index: 99999;
+    width: 100%;
+    padding: 32px 50px;
+}
+
+#bnav img{
+    width: 100px;
+}
+
+#centerimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    width: 22vw;
+}
+
+#centerimg h5{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #777;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+#cimage{
+    position: relative;
+    width: 100%;
+    height: 13vw;
+    overflow: hidden;
+}
+
+#cimage img{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#overlay>h1{
+    font-size: 14vw;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+    font-weight: 400;
+    z-index: 999;
+    font-family: 'gilroy';
+}
+
+#second{
+    width: 100%;
+    height: 100vh;
+}
+
+#circp{
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5vw;
+    height: 5vw;
+    background-color:#D5A7B4 ;
+}
+
+#overlay #pinkflare{
+    position: absolute;
+    z-index: 999999;
+    color: white;
+    bottom: -110%;
+    left: 65%;
+    transform: translate(-50%,0) rotate(60deg);
+    overflow: hidden;
+    width: 100%;
+    font-weight: 500;
+}
+
+#sidepurple{
+   position: absolute;
+   top: 150%;
+   left: 0;
+   padding: 6vw 5vw 5vw 5vw;
+   background-color: #D5A7B4; 
+}
+
+#sidepurple h2{
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#sidepurple h3{
+    color: white;
+    font-weight: 450;
+    font-size: 13px;
+    padding-left: 20px;
+}
+
+#sidepurple sup{
+    color: white;
+    font-size: 13px;
+    font-weight: 450;
+    padding-left: 7px;
+}
+
+#sidepurple h1{
+    color: white;
+    font-weight: 450;
+    font-size: 30px;
+}
+
+#stop{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    height: 65%;
+    border-bottom: 1px solid whitesmoke;
+}
+#sbtm{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 35%;
+}
+
+.circle{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    top: 150%;
+    transform: translate(-50%,-50%);
+}
+.pu{
+    left: 42%;
+    z-index: 99;
+    background: linear-gradient(to right, #D5A7B4, #D5A7B4);
+}
+
+.pi{
+    left: 58%;
+    z-index: 98;
+    background-color:#B4AAD5 ;
+}
+
+#sbtm p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-weight: 900;
+    line-height: 1;
+    text-align: center;
+}
+
+#sbtm p:nth-child(1){
+    opacity: 0;
+}
+
+#stop h1{
+    font-family: "Gilroy";
+    position: absolute;
+    bottom: 0;
+    left: 120%;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 30vw;
+    color: white;
+    z-index: 9999;
+}
