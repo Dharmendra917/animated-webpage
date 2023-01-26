@@ -306,20 +306,136 @@ html,body{
 .s1{
     background-color:#DFB1BE;
     left: 0%;
+    z-index: 999;
 }
 .s2{
     background-color:#E9BBC8;
     left: 20%;
+    z-index: 999;
 }
 .s3{
     background-color: #F3C5D2;
     left: 40%;
+    z-index: 999;
 }
 .s4{
     background-color: #FDCFDC;
     left: 60%;
+    z-index: 999;
 }
 .s5{
-    background-color: #FFE3F0;
+    background-color: #f7f2f5;
     left: 80%;
+    z-index: 999;
 }
+
+.s1a{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    /* background-color:#DFB1BE; */
+}
+.s1b{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 15%;
+    background-color: #DFB1BE;
+}
+.s1c{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: #DFB1BE;
+}
+
+.s2a{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: #E9BBC8;
+}
+.s2b{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 15%;
+    background-color:#E9BBC8;
+}
+.s2c{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: #E9BBC8;
+}
+
+.s3a{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color:#F3C5D2;
+}
+.s3b{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 15%;
+    background-color: #F3C5D2;
+}
+.s3c{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: #F3C5D2;
+}
+
+.s4a{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: #FDCFDC;
+}
+.s4b{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 15%;
+    background-color: #FDCFDC;
+}
+.s4c{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: #FDCFDC;
+}
+
+.s5a{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    background-color: #FFE3F0;
+}
+.s5b{
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 15%;
+    background-color: #FFE3F0;
+}
+.s5c{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: 15%;
+    background-color: #FFE3F0;
+}
+
+/* #third{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+} */

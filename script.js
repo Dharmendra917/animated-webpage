@@ -145,6 +145,18 @@ function PageSecondAnimation(){
         duration: 10,
         ease: Power1,
     })
+    .to(".s1b,.s1c,.s2b,.s2c,.s2b,.s2c,.s3b,.s3c,.s4b,.s4c,.s5b,.s5c",{
+        left: "-50%",
+        delay:5,
+        duration: 10,
+        ease: Power1,
+    })
+    .to(".s1c,.s2c,.s2c,.s3c,.s4c,.s5c",{
+        left: "-70%",
+        delay:-5,
+        duration: 10,
+        ease: Power1,
+    })
 }
 PageOneAnimation();
 PageSecondAnimation();
