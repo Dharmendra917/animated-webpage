@@ -94,8 +94,8 @@ function PageSecondAnimation(){
     
     tl2.to(".circle",{
         top: "50%",
-        stagger: .5,
-        duration: 1,
+        stagger: 1.5,
+        duration: 10,
         ease: Power1
     })
     .to(".circle",{
@@ -105,7 +105,7 @@ function PageSecondAnimation(){
     })
     .to(".circle",{
         scale: .8,
-        duration: 5,
+        duration: 9,
         ease: Power1
     })
     .to(".circle",{
