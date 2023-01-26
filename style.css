@@ -260,13 +260,14 @@ html,body{
 }
 
 #sbtm p{
+    font-family: "Gilroy";
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     text-transform: uppercase;
-    font-size: 3vw;
-    font-weight: 900;
+    font-size: 3.5vw;
+    font-weight: 600;
     line-height: 1;
     text-align: center;
 }
@@ -285,4 +286,40 @@ html,body{
     font-size: 30vw;
     color: white;
     z-index: 9999;
+}
+
+#slides{
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.slide{
+    top: 110%;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+}
+
+.s1{
+    background-color:#DFB1BE;
+    left: 0%;
+}
+.s2{
+    background-color:#E9BBC8;
+    left: 20%;
+}
+.s3{
+    background-color: #F3C5D2;
+    left: 40%;
+}
+.s4{
+    background-color: #FDCFDC;
+    left: 60%;
+}
+.s5{
+    background-color: #FFE3F0;
+    left: 80%;
 }

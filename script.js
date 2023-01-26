@@ -78,6 +78,7 @@ function PageOneAnimation(){
         delay:.2,
         duration: 2,
     })
+    
 }
 
 function PageSecondAnimation(){
@@ -138,6 +139,12 @@ function PageSecondAnimation(){
         duration: 3,
         ease: Power1
     },"b")
+    .to(".slide",{
+        top: 0,
+        stagger: 1,
+        duration: 10,
+        ease: Power1,
+    })
 }
 PageOneAnimation();
 PageSecondAnimation();
